@@ -1,0 +1,88 @@
+@media screen and (max-width:768px) {
+    body{
+        background-color: rgb(220, 232, 243);
+    }
+    
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        height: 200px;
+        background-color: #99c0f1;
+        padding: 8px 24px;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    
+    }
+    
+    .nav li {
+        margin: 8px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .main_logo{
+        margin-left: 70px;
+        height: 90px;
+        color: rgb(7, 1, 11);
+        text-align: center;
+        -webkit-text-stroke: 1px white;
+    }
+
+    .main_photo {
+        margin-top: 220px;
+        margin-left: -250px;
+        height: 200px;
+        z-index: 80;
+    }
+
+    .main_header{
+        margin-left: -150px;
+    }
+
+    .front_box{
+        margin-top: 600px;
+    }
+    .back_box {
+        margin-top: 620px;
+    }
+
+         .portfolio{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding:0 100px ;
+         }
+        .first_content{
+             margin-top: 650px;
+             height: 1450px;
+         }
+
+         .portfolio_s{
+            margin-bottom: 50px;
+         }
+
+         .portfolio_e{
+            margin-bottom: 50px;
+         }
+    .nav_link:hover {
+        color: #fff;
+        background-color: rgb(22, 151, 216);
+        }
+
+    .contact_section {
+
+    background: -webkit-linear-gradient(to left, #525253, #a87fe5);
+    background: linear-gradient(to left, #c392f6, #4398ed);
+        }
+
+    .anchor{
+        display: block;
+        height: 230px;
+        margin-top: -230px;
+        visibility: hidden;
+    }
+ }
